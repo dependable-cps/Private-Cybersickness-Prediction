@@ -5,7 +5,7 @@ This repository accompanies the paper Preserving Personal Space: Differentially 
 
 ## Installation
 
-#### Install Python packages.
+#### Install the folowing python packages using the following script
 
 ```http
   pip install -r requirements.txt
