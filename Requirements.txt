@@ -1,0 +1,11 @@
+tensorflow==2.2.0
+adversarial-robustness-toolbox
+tensorflow torch
+tf2onnx
+onnx2pytorch
+scikit-learn
+tensorflow-privacy
+pyarrow
+pandas
+matplotlib
+numpy
