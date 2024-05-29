@@ -13,7 +13,7 @@ class DataLoader():
     def preprocess_data(self):
         
         # Drop id as it is not relevant
-        self.data.drop(["RegionOfInterest"], axis=1, inplace=True)
+        self.data.drop(["RegionOfInterest"], axis=1, inplace=True) #For the Gameplay dataset. However, we can drop irrelevant features from both Simulation and Gameplay datasets
 
         # Standardization 
         # Usually we would standardize here and convert it back later
