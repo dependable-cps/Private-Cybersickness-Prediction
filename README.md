@@ -11,10 +11,10 @@ This repository accompanies the paper Preserving Personal Space: Differentially 
   pip install -r requirements.txt
 ```
 
-## Download the Dataset and pre-processing
-1- Simulation 2021 Dataset from the following link [Simulation 2021](https://sites.google.com/view/savelab/research?authuser=0) and Gameplay Dataset from the following link [Gameplay](https://github.com/tmp1986/UFFCSData)
+## Download the Dataset and pre-processing for the models
+1- Download the Simulation 2021 Dataset from the following link [Simulation 2021](https://sites.google.com/view/savelab/research?authuser=0) and Gameplay Dataset from the following link [Gameplay](https://github.com/tmp1986/UFFCSData)
 
-2- Then extract data and pre-process for both the non-private and private deep learning models using the following python script:
+2- Then extract data and pre-process the data for both the non-private and private deep learning models training and to run the membership inference attack using the following python script:
 ```http
   Data_preprocessor_for_models.py
 ```
