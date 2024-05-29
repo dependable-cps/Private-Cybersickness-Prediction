@@ -7,7 +7,7 @@ class DataLoader():
     def __init__(self):
         self.data = None
 
-    def load_dataset(self, path='file_path + file'):
+    def load_dataset(self, path='file_path + file'): # Put the file from the source to read
         self.data = pd.read_csv(path)
 
     def preprocess_data(self):
