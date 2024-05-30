@@ -243,8 +243,6 @@ def runTraining(noise):
   eps_values.append(round(eps, 3))
   model = train()
 
-
-# main experiment loop runs for eps = 0.1, 0.5, 1, 2, 5, 10 and 20
 # send noise multiplier as argument to runTraining
 
 
