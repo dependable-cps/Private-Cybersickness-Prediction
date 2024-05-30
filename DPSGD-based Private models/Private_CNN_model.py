@@ -240,7 +240,7 @@ def runTraining(noise):
                                               noise_multiplier=noise_multiplier,
                                               epochs=epochs,
                                               delta=1/np.shape(X_train)[0])
-  eps_values.append(round(eps, 2))
+  eps_values.append(round(eps, 3))
   model = train()
 
 
@@ -251,10 +251,10 @@ def runTraining(noise):
 #epsilon = 1
 runTraining(0.82)
 
-#epsilon = 2
+#epsilon = 3
 runTraining(0.64)
 
-#epsilon = 5
+#epsilon = 6
 runTraining(0.484)
 
 print(eps_values)
