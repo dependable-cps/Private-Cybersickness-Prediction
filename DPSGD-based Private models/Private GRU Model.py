@@ -228,10 +228,10 @@ def runTraining(noise):
 #epsilon = 1
 runTraining(0.82)
 
-#epsilon = 2
+#epsilon = 3
 runTraining(0.64)
 
-#epsilon = 5
+#epsilon = 6
 runTraining(0.484)
 
 print(eps_values)
